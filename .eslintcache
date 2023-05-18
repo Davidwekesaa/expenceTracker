@@ -1,1 +1,191 @@
-[{"D:\\projects\\expenceTracker\\src\\index.js":"1","D:\\projects\\expenceTracker\\src\\App.js":"2","D:\\projects\\expenceTracker\\src\\components\\Header.js":"3","D:\\projects\\expenceTracker\\src\\components\\Balance.js":"4","D:\\projects\\expenceTracker\\src\\components\\AddItemList.js":"5","D:\\projects\\expenceTracker\\src\\components\\IncomeExpenses.js":"6","D:\\projects\\expenceTracker\\src\\context\\GlobalState.js":"7","D:\\projects\\expenceTracker\\src\\components\\TransactionList.js":"8","D:\\projects\\expenceTracker\\src\\context\\AppReducer.js":"9","D:\\projects\\expenceTracker\\src\\components\\Transaction.js":"10"},{"size":215,"mtime":1684401622437,"results":"11","hashOfConfig":"12"},{"size":759,"mtime":1684401622432,"results":"13","hashOfConfig":"12"},{"size":174,"mtime":1684403802099,"results":"14","hashOfConfig":"12"},{"size":494,"mtime":1684409547863,"results":"15","hashOfConfig":"12"},{"size":1549,"mtime":1684401622433,"results":"16","hashOfConfig":"12"},{"size":921,"mtime":1684401622435,"results":"17","hashOfConfig":"12"},{"size":902,"mtime":1684405872396,"results":"18","hashOfConfig":"12"},{"size":611,"mtime":1684401622436,"results":"19","hashOfConfig":"12"},{"size":491,"mtime":1684401622437,"results":"20","hashOfConfig":"12"},{"size":649,"mtime":1684401622435,"results":"21","hashOfConfig":"12"},{"filePath":"22","messages":"23","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"c3txp2",{"filePath":"24","messages":"25","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"26","messages":"27","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"28","messages":"29","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"30","messages":"31","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"32","messages":"33","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"34","messages":"35","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"36","messages":"37","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"38","messages":"39","errorCount":0,"warningCount":1,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"40","messages":"41","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"D:\\projects\\expenceTracker\\src\\index.js",[],"D:\\projects\\expenceTracker\\src\\App.js",[],"D:\\projects\\expenceTracker\\src\\components\\Header.js",[],"D:\\projects\\expenceTracker\\src\\components\\Balance.js",[],"D:\\projects\\expenceTracker\\src\\components\\AddItemList.js",[],"D:\\projects\\expenceTracker\\src\\components\\IncomeExpenses.js",[],"D:\\projects\\expenceTracker\\src\\context\\GlobalState.js",[],"D:\\projects\\expenceTracker\\src\\components\\TransactionList.js",[],"D:\\projects\\expenceTracker\\src\\context\\AppReducer.js",["42"],"D:\\projects\\expenceTracker\\src\\components\\Transaction.js",[],{"ruleId":"43","severity":1,"message":"44","line":1,"column":1,"nodeType":"45","endLine":16,"endColumn":2},"import/no-anonymous-default-export","Assign arrow function to a variable before exporting as module default","ExportDefaultDeclaration"]
+[
+  {
+    "D:\\projects\\expenceTracker\\src\\index.js": "1",
+    "D:\\projects\\expenceTracker\\src\\App.js": "2",
+    "D:\\projects\\expenceTracker\\src\\components\\Header.js": "3",
+    "D:\\projects\\expenceTracker\\src\\components\\Balance.js": "4",
+    "D:\\projects\\expenceTracker\\src\\components\\AddItemList.js": "5",
+    "D:\\projects\\expenceTracker\\src\\components\\IncomeExpenses.js": "6",
+    "D:\\projects\\expenceTracker\\src\\context\\GlobalState.js": "7",
+    "D:\\projects\\expenceTracker\\src\\components\\TransactionList.js": "8",
+    "D:\\projects\\expenceTracker\\src\\context\\AppReducer.js": "9",
+    "D:\\projects\\expenceTracker\\src\\components\\Transaction.js": "10"
+  },
+  {
+    "size": 215,
+    "mtime": 1684401622437,
+    "results": "11",
+    "hashOfConfig": "12"
+  },
+  {
+    "size": 759,
+    "mtime": 1684401622432,
+    "results": "13",
+    "hashOfConfig": "12"
+  },
+  {
+    "size": 174,
+    "mtime": 1684403802099,
+    "results": "14",
+    "hashOfConfig": "12"
+  },
+  {
+    "size": 494,
+    "mtime": 1684409547863,
+    "results": "15",
+    "hashOfConfig": "12"
+  },
+  {
+    "size": 1549,
+    "mtime": 1684401622433,
+    "results": "16",
+    "hashOfConfig": "12"
+  },
+  {
+    "size": 921,
+    "mtime": 1684401622435,
+    "results": "17",
+    "hashOfConfig": "12"
+  },
+  {
+    "size": 902,
+    "mtime": 1684405872396,
+    "results": "18",
+    "hashOfConfig": "12"
+  },
+  {
+    "size": 611,
+    "mtime": 1684401622436,
+    "results": "19",
+    "hashOfConfig": "12"
+  },
+  {
+    "size": 491,
+    "mtime": 1684401622437,
+    "results": "20",
+    "hashOfConfig": "12"
+  },
+  {
+    "size": 649,
+    "mtime": 1684401622435,
+    "results": "21",
+    "hashOfConfig": "12"
+  },
+  {
+    "filePath": "22",
+    "messages": "23",
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  "c3txp2",
+  {
+    "filePath": "24",
+    "messages": "25",
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "26",
+    "messages": "27",
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "28",
+    "messages": "29",
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "30",
+    "messages": "31",
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "32",
+    "messages": "33",
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "34",
+    "messages": "35",
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "36",
+    "messages": "37",
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "38",
+    "messages": "39",
+    "errorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": null
+  },
+  {
+    "filePath": "40",
+    "messages": "41",
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  "D:\\projects\\expenceTracker\\src\\index.js",
+  [],
+  "D:\\projects\\expenceTracker\\src\\App.js",
+  [],
+  "D:\\projects\\expenceTracker\\src\\components\\Header.js",
+  [],
+  "D:\\projects\\expenceTracker\\src\\components\\Balance.js",
+  [],
+  "D:\\projects\\expenceTracker\\src\\components\\AddItemList.js",
+  [],
+  "D:\\projects\\expenceTracker\\src\\components\\IncomeExpenses.js",
+  [],
+  "D:\\projects\\expenceTracker\\src\\context\\GlobalState.js",
+  [],
+  "D:\\projects\\expenceTracker\\src\\components\\TransactionList.js",
+  [],
+  "D:\\projects\\expenceTracker\\src\\context\\AppReducer.js",
+  [
+    "42"
+  ],
+  "D:\\projects\\expenceTracker\\src\\components\\Transaction.js",
+  [],
+  {
+    "ruleId": "43",
+    "severity": 1,
+    "message": "44",
+    "line": 1,
+    "column": 1,
+    "nodeType": "45",
+    "endLine": 16,
+    "endColumn": 2
+  },
+  "import/no-anonymous-default-export",
+  "Assign arrow function to a variable before exporting as module default",
+  "ExportDefaultDeclaration"
+]
